@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = ({ setImageFile }: { setImageFile: any }) => {
@@ -13,7 +14,15 @@ const Hero = ({ setImageFile }: { setImageFile: any }) => {
     <div className="md:container md:mx-auto mx-5 md:py-20 py-4">
       <div className="grid md:grid-cols-2 grid-cols-1 md:items-center gap-8">
         <div className="md:order-last">
-          <img src="/assets/hero.svg" alt="100kb-image hero" />
+          <Image
+            src="/assets/hero.svg"
+            alt="100kb-image hero"
+            unoptimized
+            priority
+            width={600}
+            height={334}
+          />
+
         </div>
         <div className="md:ml-10">
           <h1 className="md:text-6xl text-4xl md:leading-[72px] font-semibold">
