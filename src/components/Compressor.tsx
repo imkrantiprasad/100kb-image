@@ -6,6 +6,12 @@ const Compressor = ({
   originalSize,
   compressedSize,
   isCompressing,
+}: {
+  originalImage: any;
+  compressedImage: any;
+  originalSize: any;
+  compressedSize: any;
+  isCompressing: any;
 }) => {
   return (
     <div
