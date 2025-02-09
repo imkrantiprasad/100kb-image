@@ -17,12 +17,11 @@ const Hero = ({ setImageFile }: { setImageFile: any }) => {
           <Image
             src="/assets/hero.svg"
             alt="100kb-image hero"
-            unoptimized
-            priority
+            // unoptimized
+            // priority
             width={600}
             height={334}
           />
-
         </div>
         <div className="md:ml-10">
           <h1 className="md:text-6xl text-4xl md:leading-[72px] font-semibold">
