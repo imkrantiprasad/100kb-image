@@ -15,7 +15,7 @@ const Hero = ({ setImageFile }: { setImageFile: any }) => {
       <div className="grid md:grid-cols-2 grid-cols-1 md:items-center gap-8">
         <div className="md:order-last">
           <img
-            src="/assets/hero_light.webp"
+            src="/assets/hero_heavy.jpeg"
             alt="100kb-image hero"
             // unoptimized
             // priority
