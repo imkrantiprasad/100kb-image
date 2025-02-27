@@ -14,12 +14,11 @@ const Hero = ({ setImageFile }: { setImageFile: any }) => {
     <div className="md:container md:mx-auto mx-5 md:py-20 py-4">
       <div className="grid md:grid-cols-2 grid-cols-1 md:items-center gap-8">
         <div className="md:order-last">
-          <Image
+          <img
             src="/assets/hero_heavy.jpeg"
             alt="100kb-image hero"
             width={600}
             height={334}
-            priority
           />
         </div>
         <div className="md:ml-10">
