@@ -17,10 +17,9 @@ const Hero = ({ setImageFile }: { setImageFile: any }) => {
           <img
             src="/assets/hero_heavy.jpeg"
             alt="100kb-image hero"
-            // unoptimized
-            // priority
             width={600}
             height={334}
+            // priority
           />
         </div>
         <div className="md:ml-10">
