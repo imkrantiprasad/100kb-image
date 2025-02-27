@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-/*
 export const metadata: Metadata = {
   title: "Online Image Compressor",
   description:
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
     images: "/assets/hero.svg",
   },
 };
-*/
 
 export default function RootLayout({
   children,
